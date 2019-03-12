@@ -1,0 +1,31 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/soldier1_gun.png-a29a93e386d2a8d400bd6826c11818df.stex"
+
+[deps]
+
+source_file="res://images/PNG/Soldier 1/soldier1_gun.png"
+dest_files=[ "res://.import/soldier1_gun.png-a29a93e386d2a8d400bd6826c11818df.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
