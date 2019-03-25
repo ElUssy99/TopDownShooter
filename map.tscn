@@ -1,28 +1,37 @@
-[gd_scene load_steps=40 format=2]
+[gd_scene load_steps=53 format=2]
 
 [ext_resource path="res://images/PNG/Tiles/tile_01.png" type="Texture" id=1]
-[ext_resource path="res://images/PNG/Tiles/tile_42.png" type="Texture" id=2]
-[ext_resource path="res://images/PNG/Tiles/tile_11.png" type="Texture" id=3]
-[ext_resource path="res://images/PNG/Tiles/tile_183.png" type="Texture" id=4]
-[ext_resource path="res://images/PNG/Tiles/tile_116.png" type="Texture" id=5]
-[ext_resource path="res://images/PNG/Tiles/tile_109.png" type="Texture" id=6]
-[ext_resource path="res://images/PNG/Tiles/tile_111.png" type="Texture" id=7]
-[ext_resource path="res://images/PNG/Tiles/tile_113.png" type="Texture" id=8]
-[ext_resource path="res://images/PNG/Tiles/tile_170.png" type="Texture" id=9]
-[ext_resource path="res://images/PNG/Tiles/tile_114.png" type="Texture" id=10]
-[ext_resource path="res://images/PNG/Tiles/tile_196.png" type="Texture" id=11]
-[ext_resource path="res://images/PNG/Tiles/tile_197.png" type="Texture" id=12]
-[ext_resource path="res://images/PNG/Tiles/tile_133.png" type="Texture" id=13]
-[ext_resource path="res://images/PNG/Tiles/tile_132.png" type="Texture" id=14]
-[ext_resource path="res://images/PNG/Tiles/tile_134.png" type="Texture" id=15]
-[ext_resource path="res://images/PNG/Tiles/tile_324.png" type="Texture" id=16]
-[ext_resource path="res://images/PNG/Tiles/tile_450.png" type="Texture" id=17]
-[ext_resource path="res://images/PNG/Tiles/tile_484.png" type="Texture" id=18]
-[ext_resource path="res://images/PNG/Tiles/tile_447.png" type="Texture" id=19]
-[ext_resource path="res://images/PNG/Tiles/tile_448.png" type="Texture" id=20]
-[ext_resource path="res://images/PNG/Tiles/tile_449.png" type="Texture" id=21]
-[ext_resource path="res://images/PNG/Tiles/tile_529.png" type="Texture" id=22]
-[ext_resource path="res://images/PNG/Tiles/tile_323.png" type="Texture" id=23]
+[ext_resource path="res://images/PNG/Tiles/tile_02.png" type="Texture" id=2]
+[ext_resource path="res://images/PNG/Tiles/tile_42.png" type="Texture" id=3]
+[ext_resource path="res://images/PNG/Tiles/tile_11.png" type="Texture" id=4]
+[ext_resource path="res://images/PNG/Tiles/tile_293.png" type="Texture" id=5]
+[ext_resource path="res://images/PNG/Tiles/tile_292.png" type="Texture" id=6]
+[ext_resource path="res://images/PNG/Tiles/tile_183.png" type="Texture" id=7]
+[ext_resource path="res://images/PNG/Tiles/tile_116.png" type="Texture" id=8]
+[ext_resource path="res://images/PNG/Tiles/tile_109.png" type="Texture" id=9]
+[ext_resource path="res://images/PNG/Tiles/tile_111.png" type="Texture" id=10]
+[ext_resource path="res://images/PNG/Tiles/tile_113.png" type="Texture" id=11]
+[ext_resource path="res://images/PNG/Tiles/tile_170.png" type="Texture" id=12]
+[ext_resource path="res://images/PNG/Tiles/tile_114.png" type="Texture" id=13]
+[ext_resource path="res://images/PNG/Tiles/tile_196.png" type="Texture" id=14]
+[ext_resource path="res://images/PNG/Tiles/tile_197.png" type="Texture" id=15]
+[ext_resource path="res://images/PNG/Tiles/tile_133.png" type="Texture" id=16]
+[ext_resource path="res://images/PNG/Tiles/tile_132.png" type="Texture" id=17]
+[ext_resource path="res://images/PNG/Tiles/tile_134.png" type="Texture" id=18]
+[ext_resource path="res://images/PNG/Tiles/tile_324.png" type="Texture" id=19]
+[ext_resource path="res://images/PNG/Tiles/tile_450.png" type="Texture" id=20]
+[ext_resource path="res://images/PNG/Tiles/tile_484.png" type="Texture" id=21]
+[ext_resource path="res://images/PNG/Tiles/tile_447.png" type="Texture" id=22]
+[ext_resource path="res://images/PNG/Tiles/tile_448.png" type="Texture" id=23]
+[ext_resource path="res://images/PNG/Tiles/tile_449.png" type="Texture" id=24]
+[ext_resource path="res://images/PNG/Tiles/tile_529.png" type="Texture" id=25]
+[ext_resource path="res://images/PNG/Tiles/tile_323.png" type="Texture" id=26]
+[ext_resource path="res://images/PNG/Tiles/tile_536.png" type="Texture" id=27]
+[ext_resource path="res://images/PNG/Tiles/tile_537.png" type="Texture" id=28]
+[ext_resource path="res://images/PNG/Tiles/tile_321.png" type="Texture" id=29]
+[ext_resource path="res://images/PNG/Tiles/tile_322.png" type="Texture" id=30]
+[ext_resource path="res://images/PNG/Tiles/tile_129.png" type="Texture" id=31]
+[ext_resource path="res://images/PNG/Tiles/tile_269.png" type="Texture" id=32]
 
 [sub_resource type="CircleShape2D" id=1]
 
@@ -88,29 +97,59 @@ extents = Vector2( 23.4142, 20.4196 )
 
 extents = Vector2( 32.141, 31.1732 )
 
+[sub_resource type="RectangleShape2D" id=17]
+
+extents = Vector2( 32.1621, 31.1357 )
+
+[sub_resource type="RectangleShape2D" id=18]
+
+extents = Vector2( 32.2642, 32.3301 )
+
+[sub_resource type="RectangleShape2D" id=19]
+
+extents = Vector2( 27.5476, 27.4019 )
+
+[sub_resource type="CapsuleShape2D" id=20]
+
+radius = 12.3064
+height = 14.2062
+
 [node name="Node2D" type="Node2D"]
 
-[node name="Grass" type="Sprite" parent="."]
-position = Vector2( 35.5855, 34.9221 )
+[node name="Grass_1" type="Sprite" parent="."]
+position = Vector2( 34.5855, 34.9221 )
 scale = Vector2( 1.07545, 1.07545 )
 texture = ExtResource( 1 )
 region_rect = Rect2( 0, 0, 50, 50 )
 
+[node name="Grass_2" type="Sprite" parent="."]
+position = Vector2( 36.4473, 364.986 )
+scale = Vector2( 1.094, 1.094 )
+texture = ExtResource( 2 )
+
 [node name="Floor_Wood" type="Sprite" parent="."]
 position = Vector2( 304.51, 34.8247 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 2 )
+texture = ExtResource( 3 )
 
 [node name="Floor_Blue" type="Sprite" parent="."]
 position = Vector2( 215.631, 35.4881 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 3 )
+texture = ExtResource( 4 )
+
+[node name="Debris_1" type="Sprite" parent="."]
+position = Vector2( 393.905, 35.2939 )
+texture = ExtResource( 5 )
+
+[node name="Debris_2" type="Sprite" parent="."]
+position = Vector2( 485.292, 37.1847 )
+texture = ExtResource( 6 )
 
 [node name="Tree" type="Sprite" parent="."]
 editor/display_folded = true
 position = Vector2( 125.386, 34.8247 )
 scale = Vector2( 1.08293, 1.08293 )
-texture = ExtResource( 4 )
+texture = ExtResource( 7 )
 region_rect = Rect2( 0, 0, 64, 64 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Tree"]
@@ -122,7 +161,7 @@ shape = SubResource( 1 )
 editor/display_folded = true
 position = Vector2( 484.002, 125.822 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 5 )
+texture = ExtResource( 8 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Corner_x1"]
 
@@ -133,7 +172,7 @@ shape = SubResource( 2 )
 editor/display_folded = true
 position = Vector2( 35.5855, 125.811 )
 scale = Vector2( 1.07545, 1.07545 )
-texture = ExtResource( 6 )
+texture = ExtResource( 9 )
 region_rect = Rect2( 0, 0, 50, 50 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Corner_x2"]
@@ -145,19 +184,18 @@ shape = SubResource( 3 )
 editor/display_folded = true
 position = Vector2( 214.948, 124.723 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 7 )
+texture = ExtResource( 10 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Line_VertHori"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Line_VertHori/StaticBody2D"]
-scale = Vector2( 1, 1 )
 shape = SubResource( 4 )
 
 [node name="Path_x3" type="Sprite" parent="."]
 editor/display_folded = true
 position = Vector2( 125.377, 125.05 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 8 )
+texture = ExtResource( 11 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Path_x3"]
 
@@ -168,18 +206,19 @@ shape = SubResource( 5 )
 editor/display_folded = true
 position = Vector2( 574.836, 124.635 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 9 )
+texture = ExtResource( 12 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Path_x4"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Path_x4/StaticBody2D"]
+position = Vector2( 0, -0.238113 )
 shape = SubResource( 6 )
 
 [node name="End_way" type="Sprite" parent="."]
 editor/display_folded = true
 position = Vector2( 305.183, 124.733 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 10 )
+texture = ExtResource( 13 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="End_way"]
 
@@ -190,7 +229,7 @@ shape = SubResource( 7 )
 editor/display_folded = true
 position = Vector2( 395, 125 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 11 )
+texture = ExtResource( 14 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Square_Column"]
 
@@ -201,7 +240,7 @@ shape = SubResource( 8 )
 editor/display_folded = true
 position = Vector2( 35.014, 215.117 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 12 )
+texture = ExtResource( 15 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Circle_Column"]
 
@@ -212,7 +251,7 @@ shape = SubResource( 9 )
 editor/display_folded = true
 position = Vector2( 172.243, 220.844 )
 scale = Vector2( 0.635211, 0.635211 )
-texture = ExtResource( 13 )
+texture = ExtResource( 16 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Square_Lamp"]
 
@@ -223,7 +262,7 @@ shape = SubResource( 10 )
 editor/display_folded = true
 position = Vector2( 109.994, 220.521 )
 scale = Vector2( 0.625179, 0.60872 )
-texture = ExtResource( 14 )
+texture = ExtResource( 17 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Circle_Lamp"]
 
@@ -234,7 +273,7 @@ shape = SubResource( 11 )
 editor/display_folded = true
 position = Vector2( 230.272, 220.689 )
 scale = Vector2( 0.616503, 0.616503 )
-texture = ExtResource( 15 )
+texture = ExtResource( 18 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Flower_Pot"]
 editor/display_folded = true
@@ -246,7 +285,7 @@ polygon = PoolVector2Array( 15.9953, 20.4478, 22.6566, -20.3529, -24.8054, -8.69
 editor/display_folded = true
 position = Vector2( 305.385, 213.577 )
 scale = Vector2( 1.094, 1.094 )
-texture = ExtResource( 16 )
+texture = ExtResource( 19 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Fires"]
 
@@ -258,7 +297,7 @@ shape = SubResource( 12 )
 editor/display_folded = true
 position = Vector2( 395.487, 215.144 )
 scale = Vector2( 0.766043, 0.766043 )
-texture = ExtResource( 17 )
+texture = ExtResource( 20 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Armchair"]
 
@@ -268,7 +307,7 @@ polygon = PoolVector2Array( -10.1828, -18.3846, 9.15045, -18.3846, 11.1118, -22.
 [node name="Table" type="Sprite" parent="."]
 editor/display_folded = true
 position = Vector2( 485.019, 214.077 )
-texture = ExtResource( 18 )
+texture = ExtResource( 21 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Table"]
 
@@ -279,7 +318,7 @@ shape = SubResource( 13 )
 editor/display_folded = true
 position = Vector2( 35.2542, 295.005 )
 scale = Vector2( 0.706043, 0.706043 )
-texture = ExtResource( 19 )
+texture = ExtResource( 22 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Sofa_1"]
 
@@ -290,7 +329,7 @@ polygon = PoolVector2Array( -4.01369, -22.4505, 31.8586, -22.4505, 31.8586, 29.2
 editor/display_folded = true
 position = Vector2( 96.3418, 295.005 )
 scale = Vector2( 0.706043, 0.706043 )
-texture = ExtResource( 20 )
+texture = ExtResource( 23 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Sofa_2"]
 
@@ -302,7 +341,7 @@ shape = SubResource( 14 )
 editor/display_folded = true
 position = Vector2( 164.932, 295.005 )
 scale = Vector2( 0.706043, 0.706043 )
-texture = ExtResource( 21 )
+texture = ExtResource( 24 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Sofa_3"]
 
@@ -312,7 +351,7 @@ polygon = PoolVector2Array( -32.1098, -21.6751, -32.1098, 28.3197, -7.99886, 28.
 [node name="Chair" type="Sprite" parent="."]
 editor/display_folded = true
 position = Vector2( 230.49, 294.145 )
-texture = ExtResource( 22 )
+texture = ExtResource( 25 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Chair"]
 
@@ -321,12 +360,80 @@ position = Vector2( 0, 1 )
 shape = SubResource( 15 )
 
 [node name="Pica" type="Sprite" parent="."]
+editor/display_folded = true
 position = Vector2( 302.872, 298.252 )
-texture = ExtResource( 23 )
+texture = ExtResource( 26 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Pica"]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Pica/StaticBody2D"]
 position = Vector2( 0, 1 )
 shape = SubResource( 16 )
+
+[node name="Square_TV" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 394.56, 298.19 )
+texture = ExtResource( 27 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Square_TV"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Square_TV/StaticBody2D"]
+polygon = PoolVector2Array( -19.455, 22.2537, -20.8106, 4.85669, -25.7812, 4.85669, -25.7812, -18.4147, -18.7772, -18.4147, -14.9363, -21.1259, -7.70633, -23.1593, -1.60611, -23.3853, 5.84976, -22.9333, 12.6278, -21.5778, 18.0503, -19.0925, 26.4099, -18.8665, 26.4099, 4.63074, 22.7949, 4.63074, 20.7615, 22.2537 )
+
+[node name="Plane_TV" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 487.97, 298.171 )
+texture = ExtResource( 28 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Plane_TV"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Plane_TV/StaticBody2D"]
+polygon = PoolVector2Array( -28.9036, -8.79871, -28.9036, 3.33047, -19.3906, 3.33047, -19.3906, 7.61133, -11.755, 7.59274, -10.591, 9.98962, -8.68839, 11.1788, -5.59662, 13.0814, -2.26706, 13.7949, 1.0625, 13.7949, 4.15427, 12.8435, 6.77036, 11.8922, 9.86212, 9.27612, 10.831, 7.47064, 18.6445, 7.47064, 18.6617, 3.80612, 28.6504, 3.80612, 28.6504, -9.0365, 11.2891, -9.0365, 7.95947, -12.1283, 4.84875, -13.2841, 1.16266, -14.1895, -3.02429, -13.8589, -6.54794, -12.3661, -9.16403, -10.4635, -10.8288, -8.79871 )
+
+[node name="Kitchen_Table" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 575.308, 213.545 )
+scale = Vector2( 1.094, 1.094 )
+texture = ExtResource( 29 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Kitchen_Table"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Kitchen_Table/StaticBody2D"]
+position = Vector2( 0, 0.914078 )
+shape = SubResource( 17 )
+
+[node name="Kitchen_Table_Square" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 575.512, 295.232 )
+scale = Vector2( 1.094, 1.094 )
+texture = ExtResource( 30 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Kitchen_Table_Square"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Kitchen_Table_Square/StaticBody2D"]
+shape = SubResource( 18 )
+
+[node name="Box" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 570.276, 37.9152 )
+scale = Vector2( 1.094, 1.094 )
+texture = ExtResource( 31 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Box"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Box/StaticBody2D"]
+shape = SubResource( 19 )
+
+[node name="Toaster" type="Sprite" parent="."]
+editor/display_folded = true
+position = Vector2( 98.9491, 362.393 )
+scale = Vector2( 0.606094, 0.606094 )
+texture = ExtResource( 32 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Toaster"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Toaster/StaticBody2D"]
+position = Vector2( -2.17389, 0 )
+rotation = -1.50796
+shape = SubResource( 20 )
 
