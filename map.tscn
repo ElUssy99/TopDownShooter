@@ -282,8 +282,8 @@ editor/display_folded = true
 polygon = PoolVector2Array( 15.9953, 20.4478, 22.6566, -20.3529, -24.8054, -8.69562, -7.3194, 9.62308 )
 
 [node name="Fires" type="Sprite" parent="."]
-editor/display_folded = true
 position = Vector2( 305.385, 213.577 )
+rotation = 3.14159
 scale = Vector2( 1.094, 1.094 )
 texture = ExtResource( 19 )
 
@@ -294,8 +294,8 @@ position = Vector2( 0, 0.938492 )
 shape = SubResource( 12 )
 
 [node name="Armchair" type="Sprite" parent="."]
-editor/display_folded = true
 position = Vector2( 395.487, 215.144 )
+rotation = -0.879646
 scale = Vector2( 0.766043, 0.766043 )
 texture = ExtResource( 20 )
 
@@ -360,8 +360,8 @@ position = Vector2( 0, 1 )
 shape = SubResource( 15 )
 
 [node name="Pica" type="Sprite" parent="."]
-editor/display_folded = true
 position = Vector2( 302.872, 298.252 )
+rotation = 3.14159
 texture = ExtResource( 26 )
 
 [node name="StaticBody2D" type="StaticBody2D" parent="Pica"]
