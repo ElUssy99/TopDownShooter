@@ -1,6 +1,25 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://mapa_tileSet_2.res" type="TileSet" id=1]
+[ext_resource path="res://KinematicBody2D_Player.gd" type="Script" id=2]
+[ext_resource path="res://images/PNG/Hitman 1/hitman1_gun.png" type="Texture" id=3]
+
+[sub_resource type="SpriteFrames" id=1]
+
+animations = [ {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "left",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "top",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=2]
+
 
 [node name="Node2D" type="Node2D"]
 
@@ -24,4 +43,17 @@ tile_data = PoolIntArray( 393222, 44, 0, 393223, 45, 0, 458758, 24, 0 )
 tile_set = ExtResource( 1 )
 format = 1
 tile_data = PoolIntArray( 65544, 53, 0, 131084, 50, 0, 262154, 51, 0, 327684, 52, 0, 327692, 54, 0, 393220, 52, 0, 458764, 54, 0 )
+
+[node name="Player" type="Node2D" parent="."]
+
+[node name="KinematicBody2D" type="KinematicBody2D" parent="Player"]
+script = ExtResource( 2 )
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="Player/KinematicBody2D"]
+position = Vector2( 353, 354 )
+frames = SubResource( 1 )
+animation = "top"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/KinematicBody2D"]
+shape = SubResource( 2 )
 
