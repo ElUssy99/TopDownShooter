@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/click2.ogg-5241c0446cfe7464caa91a52b3e10869.oggstr"
+
+[deps]
+
+source_file="res://images/PNG/Buttons/uipack_fixed/Bonus/click2.ogg"
+dest_files=[ "res://.import/click2.ogg-5241c0446cfe7464caa91a52b3e10869.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
