@@ -1,8 +1,9 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://mapa_tileSet_2.res" type="TileSet" id=1]
 [ext_resource path="res://KinematicBody2D_Player.gd" type="Script" id=2]
 [ext_resource path="res://images/PNG/Hitman 1/hitman1_gun.png" type="Texture" id=3]
+[ext_resource path="res://images/PNG/Hitman 1/hitman1_gun_up.png" type="Texture" id=4]
 
 [sub_resource type="SpriteFrames" id=1]
 
@@ -12,7 +13,7 @@ animations = [ {
 "name": "left",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 3 ) ],
+"frames": [ ExtResource( 4 ) ],
 "loop": true,
 "name": "top",
 "speed": 5.0
@@ -20,6 +21,8 @@ animations = [ {
 
 [sub_resource type="CapsuleShape2D" id=2]
 
+radius = 14.378
+height = 14.8187
 
 [node name="Node2D" type="Node2D"]
 
@@ -55,5 +58,7 @@ frames = SubResource( 1 )
 animation = "top"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player/KinematicBody2D"]
+position = Vector2( 353.454, 360.686 )
+rotation = 1.5708
 shape = SubResource( 2 )
 
